@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sirija - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-background"></div>
+    <div class="starry-background"></div>
+    <div class="animated-circles">
+        <div class="circle-element" style="width: 300px; height: 300px; top: 20%; left: 10%;"></div>
+        <div class="circle-element" style="width: 200px; height: 200px; top: 60%; right: 15%; animation-delay: 2s;"></div>
+        <div class="circle-element" style="width: 150px; height: 150px; bottom: 20%; left: 20%; animation-delay: 4s;"></div>
+    </div>
+    <div id="custom-cursor"></div>
+    <header>
+        <div class="content-wrapper">
+            <div class="site-logo">CODER</div>
+            <nav>
+                <ul>
+                    <li><a href="#home-section" class="navigation-link active" data-section="home-section">Home</a></li>
+                    <li><a href="#about-section" class="navigation-link" data-section="about-section">About</a></li>
+                    <li><a href="#project-section" class="navigation-link" data-section="project-section">Projects</a></li>
+                    <li><a href="#interest-section" class="navigation-link" data-section="interest-section">Interests</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home-section">
+        <div class="content-wrapper section-layout">
+            <div class="intro-text">
+                <h1>Hello, I am<br>Sirija</h1>
+                <div class="slogan-text" data-text="Eat - Sleep - Code - Repeat...."></div>
+                <p class="bio-text">
+                    I am Sirija Polinati, currently pursuing a B.Tech in Electrical and Electronics Engineering at Shri Vishnu Engineering College for Women. Throughout my academic journey, I have shown a deep interest in core computer science subjects such as Operating Systems, Database Management Systems, Computer Networks, Object-Oriented Programming, and Data Structures & Algorithms.
+                    <br/><br/>
+                    Since beginning my engineering studies in 2022, I have been committed to expanding my knowledge and staying curious about emerging technologies. With my expected graduation in 2026, I am enthusiastic about exploring opportunities where I can apply my learning, grow professionally, and contribute meaningfully to the world of technology.
+                </p>
+                <div class="action-buttons">
+                    <a href="./sirija_polinati.pdf" class="action-button" id="resume-button" target="_blank">Get My Resume</a>
+                    <button class="action-button" id="hire-me-button">Hire Me</button>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/sirija-polinati-1538a7286/" target="_blank" class="social-link-icon">
+                        <img src="./Home/Linkedin(Circle).png" alt="LinkedIn Icon">
+                    </a>
+                    <a href="https://github.com/sirijapolinati05" target="_blank" class="social-link-icon">
+                        <img src="./Home/GitHub(Circle).png" alt="GitHub Icon">
+                    </a>
+                </div>
+            </div>
+            <div class="profile-picture-wrapper">
+                <img src="./img.jpg" alt="Sirija's Profile Image" class="profile-picture">
+            </div>
+        </div>
+    </section>
+    <section id="about-section">
+        <div class="content-wrapper section-layout">
+            <div class="about-heading">
+                <h1>About Me</h1>
+            </div>
+            <div class="about-section-layout">
+                <div class="about-bio-wrapper">
+                    <p class="about-bio-text">
+                        I'm Sirija Polinati, a passionate learner with a strong interest in software development and emerging technologies. I'm proficient in C, Python, and Java, and familiar with C++. I have hands-on experience in frontend development using Bootstrap and CSS, and I work comfortably with tools like Firebase and Postman API.
+                        <br/><br/>
+                        My skills in Database Management Systems (DBMS) are backed by practical experience with SQL, MySQL, and MongoDB for efficient data storage, retrieval, and management. I'm well-versed in using developer tools such as VS Code, Jupyter Notebook, Eclipse IDE, Dev-C++, and Git & GitHub for version control. Additionally, I work with tools like SQL Developer, SQL Server Management Studio, and MongoDB Compass. I also have a solid understanding of Operating Systems, which strengthens my computer science fundamentals and supports my work across various software development domains.
+                    </p>
+                </div>
+                <div class="vertical-divider"></div>
+                <div class="skills-scroll-area">
+                    <div class="skills-list">
+                        <div class="skill-group">
+                            <h3>Front-End Development</h3>
+                            <div class="skill-icon-list">
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Front-End Development/HTML 5.png" alt="HTML5">
+                                    <span class="skill-tooltip">HTML5</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Front-End Development/CSS 3.png" alt="CSS3">
+                                    <span class="skill-tooltip">CSS3</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Front-End Development/JavaScript.png" alt="JavaScript">
+                                    <span class="skill-tooltip">JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-group">
+                            <h3>Frameworks/Libraries</h3>
+                            <div class="skill-icon-list">
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Frameworks or Libraries/Bootstrap.png" alt="Bootstrap">
+                                    <span class="skill-tooltip">Bootstrap</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Frameworks or Libraries/React JS.png" alt="React JS">
+                                    <span class="skill-tooltip">React JS</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Frameworks or Libraries/Numpy.png" alt="Numpy">
+                                    <span class="skill-tooltip">Numpy</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Frameworks or Libraries/Pandas.png" alt="Pandas">
+                                    <span class="skill-tooltip">Pandas</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-group">
+                            <h3>Programming Languages</h3>
+                            <div class="skill-icon-list">
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Programming Languages/C.png" alt="C">
+                                    <span class="skill-tooltip">C</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Programming Languages/C++.png" alt="C++">
+                                    <span class="skill-tooltip">C++</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Programming Languages/Python.png" alt="Python">
+                                    <span class="skill-tooltip">Python</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Programming Languages/Java.png" alt="Java">
+                                    <span class="skill-tooltip">Java</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-group">
+                            <h3>Databases</h3>
+                            <div class="skill-icon-list">
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Databases/SQL.png" alt="SQL">
+                                    <span class="skill-tooltip">SQL</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Databases/MySQL.png" alt="MySQL">
+                                    <span class="skill-tooltip">MySQL</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Databases/MongoDB.png" alt="MongoDB">
+                                    <span class="skill-tooltip">MongoDB</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-group">
+                            <h3>API & Integration Tools</h3>
+                            <div class="skill-icon-list">
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/API & Integration Tools/Postman API.png" alt="Postman API">
+                                    <span class="skill-tooltip">Postman API</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/API & Integration Tools/Firebase.png" alt="Firebase">
+                                    <span class="skill-tooltip">Firebase</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/API & Integration Tools/Netlify.png" alt="Netlify">
+                                    <span class="skill-tooltip">Netlify</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/API & Integration Tools/Vercel.png" alt="Vercel">
+                                    <span class="skill-tooltip">Vercel</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-group">
+                            <h3>Developer Tools</h3>
+                            <div class="skill-icon-list">
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Developer Tools/Git.png" alt="Git">
+                                    <span class="skill-tooltip">Git</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Developer Tools/GitHub.png" alt="GitHub">
+                                    <span class="skill-tooltip">GitHub</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Developer Tools/VS Code.png" alt="VS Code">
+                                    <span class="skill-tooltip">VS Code</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Developer Tools/Jupyter Notebook.png" alt="Jupyter Notebook">
+                                    <span class="skill-tooltip">Jupyter Notebook</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Developer Tools/Eclipse IDE.png" alt="Eclipse IDE">
+                                    <span class="skill-tooltip">Eclipse IDE</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Developer Tools/Dev C++.png" alt="Dev-C++">
+                                    <span class="skill-tooltip">Dev-C++</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Developer Tools/SQL Developr.png" alt="SQL Developer">
+                                    <span class="skill-tooltip">SQL Developer</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Developer Tools/SQL Server Management Studio.png" alt="SQL Server Management Studio">
+                                    <span class="skill-tooltip">SQL Server<br>Management Studio</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Developer Tools/MongoDB compass.png" alt="MongoDB Compass">
+                                    <span class="skill-tooltip">MongoDB Compass</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Developer Tools/Flutter.png" alt="Flutter">
+                                    <span class="skill-tooltip">Flutter</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Developer Tools/Expo Go.png" alt="Expo Go">
+                                    <span class="skill-tooltip">Expo Go</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Developer Tools/Rork.png" alt="Rork">
+                                    <span class="skill-tooltip">Rork</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;">
+                                    <img src="./Skills/Developer Tools/Command Prompt.png" alt="Command Prompt">
+                                    <span class="skill-tooltip">Command Prompt</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-group">
+                            <h3>AI Tools</h3>
+                            <div class="skill-icon-list">
+                                <div class="skill-badge" style="animation-delay: 0s;" onclick="window.open('https://chatgpt.com/', '_blank')">
+                                    <img src="./Skills/AI Tools/ChatGPT.png" alt="ChatGPT">
+                                    <span class="skill-tooltip">ChatGPT</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;" onclick="window.open('https://gemini.google.com/', '_blank')">
+                                    <img src="./Skills/AI Tools/Gemini.png" alt="Gemini">
+                                    <span class="skill-tooltip">Gemini</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;" onclick="window.open('https://deepseek.com/', '_blank')">
+                                    <img src="./Skills/AI Tools/DeepSeek.png" alt="DeepSeek">
+                                    <span class="skill-tooltip">DeepSeek</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;" onclick="window.open('https://www.perplexity.ai/', '_blank')">
+                                    <img src="./Skills/AI Tools/Perplexity AI.png" alt="Perplexity">
+                                    <span class="skill-tooltip">Perplexity</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;" onclick="window.open('https://www.anthropic.com/', '_blank')">
+                                    <img src="./Skills/AI Tools/claude ai.png" alt="Claude AI">
+                                    <span class="skill-tooltip">Claude AI</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;" onclick="window.open('https://x.ai/', '_blank')">
+                                    <img src="./Skills/AI Tools/Grok ai.png" alt="Grok AI">
+                                    <span class="skill-tooltip">Grok AI</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;" onclick="window.open('https://gamma.app/', '_blank')">
+                                    <img src="./Skills/AI Tools/Gamma AI.png" alt="Gamma AI">
+                                    <span class="skill-tooltip">Gamma AI</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;" onclick="window.open('https://napkin.ai/', '_blank')">
+                                    <img src="./Skills/AI Tools/Napkin AI.png" alt="Napkin AI">
+                                    <span class="skill-tooltip">Napkin AI</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;" onclick="window.open('https://www.notebooklm.ai/', '_blank')">
+                                    <img src="./Skills/AI Tools/Notebook LLM.png" alt="Notebook LLM">
+                                    <span class="skill-tooltip">Notebook LLM</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;" onclick="window.open('https://www.blackbox.ai/', '_blank')">
+                                    <img src="./Skills/AI Tools/BlackBox.png" alt="BlackBox AI">
+                                    <span class="skill-tooltip">BlackBox AI</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;" onclick="window.open('https://www.midjourney.com/', '_blank')">
+                                    <img src="./Skills/AI Tools/midjourney.png" alt="Midjourney">
+                                    <span class="skill-tooltip">Midjourney</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;" onclick="window.open('https://lovable.dev/', '_blank')">
+                                    <img src="./Skills/AI Tools/Lovable.png" alt="Lovable">
+                                    <span class="skill-tooltip">Lovable</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;" onclick="window.open('https://lovable.dev/', '_blank')">
+                                    <img src="./Skills/AI Tools/cursor.png" alt="Cursor">
+                                    <span class="skill-tooltip">Cursor</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;" onclick="window.open('https://replit.com/ai', '_blank')">
+                                    <img src="./Skills/AI Tools/Replit.png" alt="Replit">
+                                    <span class="skill-tooltip">Replit</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;" onclick="window.open('https://antigravity.google/', '_blank')">
+                                    <img src="./Skills/AI Tools/Anti-Gravity.png" alt="Anti Gravity">
+                                    <span class="skill-tooltip">Anti Gravity</span>
+                                </div>
+                                <div class="skill-badge" style="animation-delay: 0s;" onclick="window.open('https://copilot.microsoft.com/', '_blank')">
+                                    <img src="./Skills/AI Tools/Copilot.png" alt="Copilot">
+                                    <span class="skill-tooltip">Copilot</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="certifications-section">
+        <div class="content-wrapper" style="display: flex; flex-direction: column; align-items: center;">
+            <h1>Certifications</h1>
+            <div class="certification-gallery">
+                <div class="certification-card" data-url="https://api.badgr.io/public/assertions/j5duGfecQxiqqSCmzBcmOQ" tabindex="0">
+                    <div class="certificate-image">
+                        <img src="./Certifications/Outer Certifications/Postman API.jpeg" alt="Postman API certificate" class="certificate-img">
+                    </div>
+                    <div class="certificate-details">
+                        <h6 class="certificate-info">Postman API Fundamentals Student Expert. Certification issued by Postman API, 2024.</h6>
+                        <div class="tech-tags">
+                            <div class="primary-tech-tags">
+                                <span class="primary-tech">Postman API</span>
+                            </div>
+                            <div class="secondary-tech-tags">
+                                <span class="secondary-tech">Postman</span>
+                            </div>
+                        </div>
+                        <a href="./Certifications/Outer Certifications PDFs/Postman API.pdf" class="view-certificate-link" target="_blank">View Certificate</a>
+                    </div>
+                </div>
+                <div class="certification-card" data-url="https://learnprompting.thinkific.com/certificates/5rtk5cwley" tabindex="0">
+                    <div class="certificate-image">
+                        <img src="./Certifications/Outer Certifications/chatGPT for everyone.jpg" alt="chatGPT for everyone Certificate" class="certificate-img">
+                    </div>
+                    <div class="certificate-details">
+                        <h6 class="certificate-info">ChatGPT for everyone. Certification issued by Learn Prompting, 2025.</h6>
+                        <div class="tech-tags">
+                            <div class="primary-tech-tags">
+                                <span class="primary-tech">ChatGPT</span>
+                            </div>
+                            <div class="secondary-tech-tags">
+                                <span class="secondary-tech">Learn Prompting</span>
+                            </div>
+                        </div>
+                        <a href="./Certifications/Outer Certifications PDFs/chatGPT for everyone from Learn Prompting.pdf" class="view-certificate-link" target="_blank">View Certificate</a>
+                    </div>
+                </div>
+                <div class="certification-card" data-url="https://www.udemy.com/certificate/UC-71bff527-fff6-4aca-8c9c-5a177cae3d40/" tabindex="0">
+                    <div class="certificate-image">
+                        <img src="./Certifications/Outer Certifications/Git, GitLab, GitHub.png" alt="Git, GitLab, GitHub Certificate" class="certificate-img">
+                    </div>
+                    <div class="certificate-details">
+                        <h6 class="certificate-info">Git, GitLab, GitHub Fundamentals for software developers. Certification issued by Udemy, 2025.</h6>
+                        <div class="tech-tags">
+                            <div class="primary-tech-tags">
+                                <span class="primary-tech">Git</span>
+                                <span class="primary-tech">GitLab</span>
+                                <span class="primary-tech">GitHub</span>
+                            </div>
+                            <div class="secondary-tech-tags">
+                                <span class="secondary-tech">Udemy</span>
+                            </div>
+                        </div>
+                        <a href="./Certifications/Outer Certifications PDFs/Git, GitLab, GitHub.pdf" class="view-certificate-link" target="_blank">View Certificate</a>
+                    </div>
+                </div>
+                <div class="certification-card" data-url="https://www.udemy.com/certificate/UC-3ec14657-0a84-4188-8b90-bcf556792eb0/" tabindex="0">
+                    <div class="certificate-image">
+                        <img src="./Certifications/Outer Certifications/HTML and CSS.jpg" alt="Learn to code HTML and CSS Certificate" class="certificate-img">
+                    </div>
+                    <div class="certificate-details">
+                        <h6 class="certificate-info">Learn to code HTML and CSS for responsive real-world websites. Certification issued by Udemy, 2024.</h6>
+                        <div class="tech-tags">
+                            <div class="primary-tech-tags">
+                                <span class="primary-tech">HTML</span>
+                                <span class="primary-tech">CSS</span>
+                            </div>
+                            <div class="secondary-tech-tags">
+                                <span class="secondary-tech">Udemy</span>
+                            </div>
+                        </div>
+                        <a href="./Certifications/Outer Certifications PDFs/HTML and CSS from Udemy.pdf" class="view-certificate-link" target="_blank">View Certificate</a>
+                    </div>
+                </div>
+                <div class="certification-card" id="last-certification" data-url="" tabindex="0">
+                    <div class="certificate-image">
+                        <img src="./Certifications/Outer Certifications/AI Ascend.jpg" alt="APSSDC FutureSkills prime certification by Accenture" class="certificate-img">
+                    </div>
+                    <div class="certificate-details">
+                        <h6 class="certificate-info">APSSDC AI Ascend - Digital conducted by Accenture. Certificate issued by Nasscom FutureSkills Prime, 2025</h6>
+                        <div class="tech-tags">
+                            <div class="primary-tech-tags">
+                                <span class="primary-tech">AI</span>
+                            </div>
+                            <div class="secondary-tech-tags">
+                                <span class="secondary-tech">APSSDC</span>
+                                <span class="secondary-tech">Accenture</span>
+                            </div>
+                        </div>
+                        <a href="#" class="view-certificate-link" data-toggle="inner-cert-overlay">View Certificates</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="project-section">
+        <div class="content-wrapper" style="display: flex; flex-direction: column;">
+            <div class="project-heading">
+                <h1>Projects</h1>
+            </div>
+            <div class="project-gallery">
+                <div class="project-card" tabindex="0">
+                    <div class="project-image">
+                        <img src="./Projects/Rakshaa - The digital scam shield.jpg" alt="Rakshaa-The Digital Scam Shield" class="certificate-img">
+                    </div>
+                    <div class="project-details">
+                        <h4 class="project-name">Rakshaa-The Digital Scam Shield</h4>
+                        <h6 class="project-description">ScamShield is a user-powered app that helps report and alert others about scam calls, messages, and links. It enables real-time scam detection and protects the community through crowdsourced information.</h6>
+                        <div class="tech-tags">
+                            <div class="primary-tech-tags">
+                                <span class="primary-tech">React JS</span>
+                                <span class="primary-tech">TypeScript</span>
+                                <span class="primary-tech">Tailwind CSS</span>
+                                <span class="primary-tech">Firebase</span>
+                            </div>
+                        </div>
+                        <a href="https://scam-shield-dbc38.web.app/sign-in" class="view-project-link" target="_blank">Preview Project</a>
+                    </div>
+                </div>
+                <div class="project-card" tabindex="0">
+                    <div class="project-image">
+                        <img src="./Projects/Menu Valley.png" alt="Menu Valley project image" class="certificate-img">
+                    </div>
+                    <div class="project-details">
+                        <h3 class="project-name">Menu Valley</h3>
+                        <h6 class="project-description">Menu Valley is a hostel food management app where staff update menus, students vote for preferred dishes, and can also register complaints, helping reduce wastage and improve communication.</h6>
+                        <div class="tech-tags">
+                            <div class="primary-tech-tags">
+                                <span class="primary-tech">React JS</span>
+                                <span class="primary-tech">TypeScript</span>
+                                <span class="primary-tech">Tailwind CSS</span>
+                                <span class="primary-tech">Firebase</span>
+                            </div>
+                        </div>
+                        <a href="https://hostelapp-6b14e.web.app/" class="view-project-link" target="_blank">Preview Project</a>
+                    </div>
+                </div>
+                <div class="project-card" tabindex="0">
+                    <div class="project-image">
+                        <img src="./Projects/Prompt Gallery.png" alt="Prompt Gallery project image" class="certificate-img">
+                    </div>
+                    <div class="project-details">
+                        <h3 class="project-name">Prompt Gallery</h3>
+                        <h6 class="project-description">Prompt Gallery – A React + TypeScript app using Tailwind CSS that displays AI prompts with example outputs. Users can explore and copy prompts to use in tools like ChatGPT, Midjourney, or Gemini etc..., for easy and creative image generation.</h6>
+                        <div class="tech-tags">
+                            <div class="primary-tech-tags">
+                                <span class="primary-tech">React JS</span>
+                                <span class="primary-tech">TypeScript</span>
+                                <span class="primary-tech">Tailwind CSS</span>
+                            </div>
+                        </div>
+                        <a href="https://prompt-gallery-ai.vercel.app/" class="view-project-link" target="_blank">Preview Project</a>
+                    </div>
+                </div>
+                <div class="project-card" tabindex="0">
+                    <div class="project-image">
+                        <img src="./Projects/Miraa-The virtual voice assistant.png" alt="Miraa-The virtual voice assistant" class="certificate-img">
+                    </div>
+                    <div class="project-details">
+                        <h4 class="project-name">Miraa-The Virtual Voice Assistant</h4>
+                        <h6 class="project-description">Built a browser-based voice assistant using HTML, CSS, and JavaScript. Miraa listens to voice commands and responds with appropriate actions or replies, providing a hands-free and interactive user experience.</h6>
+                        <div class="tech-tags">
+                            <div class="primary-tech-tags">
+                                <span class="primary-tech">HTML</span>
+                                <span class="primary-tech">CSS</span>
+                                <span class="primary-tech">JavaScript</span>
+                            </div>
+                        </div>
+                        <a href="https://virtual-assistant-miraa.netlify.app/" class="view-project-link" target="_blank">Preview Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="interest-section">
+        <div class="content-wrapper" style="display: flex; flex-direction: column; align-items: center;">
+            <h2 class="interests-heading">I'm Interested In</h2>
+            <div class="interest-tags-wrapper">
+                <span class="interest-tag">Frontend Development</span>
+                <span class="interest-tag">Backend Development</span>
+                <span class="interest-tag">Full Stack Development</span>
+                <span class="interest-tag">App Development</span>
+                <span class="interest-tag">AI Tools</span>
+                <span class="interest-tag">Data Analytics</span>
+            </div>
+            <div class="hire-me-section">
+                <h3 class="hire-me-text">Wanna Hire Me? <a href="mailto:sirijapolinati17@gmail.com">Mail</a></h3>
+            </div>
+        </div>
+    </section>
+    <div id="inner-cert-overlay" class="inner-cert-overlay">
+        <div class="inner-starry-background"></div>
+        <button class="close-button">×</button>
+        <div class="inner-cert-content">
+            <h1 class="inner-cert-title">APSSDC AI Ascend - Digital</h1>
+            <div class="inner-cert-gallery">
+                <div class="certification-card" data-url="https://example.com/ai-fundamentals.pdf" tabindex="0">
+                    <div class="certificate-image">
+                        <img src="./Certifications/Inner Certifications/Acquiring Data (Level 1 - AI Fundamentals of AI ASCEND) by Accenture.jpg" alt="Level-1 certification" class="certificate-img">
+                    </div>
+                    <div class="certificate-details">
+                        <h6 class="certificate-info">Acquiring Data (Level 1 - AI Fundamentals of AI ASCEND) by Accenture. Certificate issued by APSSDC Nasscom FutureSkills Prime, 2025.</h6>
+                        <div class="tech-tags">
+                            <div class="primary-tech-tags">
+                                <span class="primary-tech">Acquiring Data</span>
+                            </div>
+                            <div class="secondary-tech-tags">
+                                <span class="secondary-tech">APSSDC</span>
+                                <span class="secondary-tech">Accenture</span>
+                            </div>
+                        </div>
+                        <a href="./Certifications/Inner Certification PDFs/Acquiring Data (Level 1 - AI Fundamentals of AI ASCEND) by Accenture.pdf" class="view-certificate-link" target="_blank">View Certificate</a>
+                    </div>
+                </div>
+                <div class="certification-card" data-url="https://example.com/ml-basics.pdf" tabindex="0">
+                    <div class="certificate-image">
+                        <img src="./Certifications/Inner Certifications/Exploratory data analysis (Level 2 - AI Ready of AI ASCEND) by Accenture.jpg" alt="Machine Learning Basics Certificate" class="certificate-img">
+                    </div>
+                    <div class="certificate-details">
+                        <h6 class="certificate-info">Exploratory data analysis (Level 2 - AI Ready of AI ASCEND) by Accenture. Certificate issued by APSSDC Nasscom FutureSkills Prime, 2025.</h6>
+                        <div class="tech-tags">
+                            <div class="primary-tech-tags">
+                                <span class="primary-tech">Data Analysis</span>
+                            </div>
+                            <div class="secondary-tech-tags">
+                                <span class="secondary-tech">APSSDC</span>
+                                <span class="secondary-tech">Accenture</span>
+                            </div>
+                        </div>
+                        <a href="./Certifications/Inner Certification PDFs/Exploratory data analysis (Level 2 - AI Ready of AI ASCEND) by Accenture.pdf" class="view-certificate-link" target="_blank">View Certificate</a>
+                    </div>
+                </div>
+                <div class="certification-card" data-url="https://example.com/data-science.pdf" tabindex="0">
+                    <div class="certificate-image">
+                        <img src="./Certifications/Inner Certifications/Data processing and visualisation  (Level 2 - AI Ready of AI ASCEND) by Accenture_page-0001.jpg">
+                    </div>
+                    <div class="certificate-details">
+                        <h6 class="certificate-info">Data processing and visualisation (Level 2 - AI Ready of AI ASCEND) by Accenture. Certificate issued by APSSDC Nasscom FutureSkills Prime, 2025.</h6>
+                        <div class="tech-tags">
+                            <div class="primary-tech-tags">
+                                <span class="primary-tech">Data processing</span>
+                                <span class="primary-tech">Data visualisation</span>
+                            </div>
+                            <div class="secondary-tech-tags">
+                                <span class="secondary-tech">APSSDC</span>
+                                <span class="secondary-tech">Accenture</span>
+                            </div>
+                        </div>
+                        <a href="./Certifications/Inner Certification PDFs/Data processing and visualisation  (Level 2 - AI Ready of AI ASCEND) by Accenture.pdf" class="view-certificate-link" target="_blank">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER - final version -->
+    <footer class="site-footer">
+        <div class="footer-stars"></div>
+        <p>© 2025 Sirija Polinati. Designed & Built with <span class="heart">♥</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
